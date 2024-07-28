@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.common-form{
+ text-align: center;
+ display :flex;
+ flex-direction: column;
+ margin: auto;
+ width :300px
+
+}
+.form-input{
+ 
+ height:35px;
+ justify-content: space-between;
+ padding-left: 10px;
+ border: 1px solid blueviolet;
+ color: blueviolet;
+ margin-bottom: 10px;
+
+    
+}
+
+
+.form-button{
+    width :300px; 
+ height:35px;
+ cursor: pointer;
+ border: 1px solid blueviolet;
+ color: blueviolet;
+}
